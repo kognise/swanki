@@ -1,0 +1,22 @@
+{
+  "name": "budget",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.1.2",
+    "drizzle-orm": "^0.25.3",
+    "hono": "^3.1.7",
+    "node-fetch": "^3.3.1",
+    "openai": "^3.2.1",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.17.6",
+    "bun-types": "^0.5.8"
+  }
+}

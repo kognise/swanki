@@ -1,0 +1,4 @@
+node_modules
+db.sqlite
+.env
+collection.anki21
